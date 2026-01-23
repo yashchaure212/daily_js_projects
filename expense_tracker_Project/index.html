@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="expenseForm">
+        <input id="expense" type="text" placeholder="title" >
+        <input id="ammount" type="number" placeholder="ammount" >
+        <select name="typeExpense" id="type">
+            <option value="expense">Expense</option>
+            <option value="income">Income</option>
+        </select>
+        <button type="submit" >Add</button>
+    </form>
+
+    <div id="expenses">
+        <ul id="expenseList"></ul>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
