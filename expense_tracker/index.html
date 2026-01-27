@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <input type="text" placeholder="Enter value" id="incomeAmmount">
+    <button id="setIncomeAmmount">Add</button>
+<hr/>
+
+    <form id="expenseForm">
+        <input type="text" id="expense" placeholder="enter expense">
+        <input type="number" id="ammount" placeholder="enter ammount">
+        <select name="category" id="category">
+            <option>electric</option>
+            <option>domestic</option>
+            <option>hobby</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    <h1>Account Balance : <span id="totalAmmount">0</span></h1>
+    <form id="setBudgetForm">
+        <input type="number" id="userBudgetAmmount" placeholder="set budget">
+        <button type="submit">set budget</button>
+    </form>
+    <h2>Budget Ammount : <span id="setBudgetAmmount">0</span></h2>
+    <h2>Remaining Budget Ammount : <span id="remainingBudgetBalanceUI">0</span></h2>
+    <h2>Budget Balance : <span id="setBudgetBalance">0</span></h2>
+    <ul id="expenseList">
+    </ul>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
